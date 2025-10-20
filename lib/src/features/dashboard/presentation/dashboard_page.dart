@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class DashboardPage extends StatelessWidget {
@@ -7,12 +6,8 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Dashboard'),
-      ),
-      body: const Center(
-        child: Text('Your personalized dashboard.'),
-      ),
+      appBar: AppBar(title: const Text('Dashboard')),
+      body: const Center(child: Text('Your personalized dashboard.')),
     );
   }
 }
